@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: sukus-ambulance-ufe-content
+spec:
+  microFrontend: sukus-ambulance-ufe
+  element: sukus-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?sukus-ambulance-wl(/.*)?$"
