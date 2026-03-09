@@ -4,6 +4,10 @@ metadata:
   name: sukus-ambulance-ufe-content
 spec:
   microFrontend: sukus-ambulance-ufe
+  element: sukus-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: ./sukus-ambulance-wl/
   element: sukus-ambulance-wl-list
   displayRules:
     - allOf:
