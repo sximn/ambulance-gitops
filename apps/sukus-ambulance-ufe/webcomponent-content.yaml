@@ -8,7 +8,6 @@ spec:
   attributes:
     - name: base-path
       value: ./sukus-ambulance-wl/
-  element: sukus-ambulance-wl-list
   displayRules:
     - allOf:
       - context-name: main-content
