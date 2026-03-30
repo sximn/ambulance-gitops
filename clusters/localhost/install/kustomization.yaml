@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/sukus-ambulance-ufe
+- ../../../apps/sukus-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/sximn/ambulance-webapi//deployments/kustomize/components/mongodb
