@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: sukus-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: Zoznam čakajúcich sukus # napr. "Zoznam čakajúcich <pfx>"
+  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Šimon Ukuš" # Zadajte mená autorov
+  azureLink: "https://sukus-ambulance-ufe.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/sximn/ambulance-ufe"
+  backendRepoUrl: "https://github.com/sximn/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/sximn/ambulance-gitops"
