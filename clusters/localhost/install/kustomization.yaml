@@ -10,6 +10,7 @@ labels:
 resources:
 - ../../../apps/sukus-ambulance-ufe
 - ../../../apps/sukus-ambulance-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
