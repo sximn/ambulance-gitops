@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/sukus-ambulance-ufe
+- ../../../apps/sukus-ambulance-webapi
 
 
 components:
