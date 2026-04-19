@@ -11,6 +11,7 @@ resources:
 - ../../../apps/sukus-ambulance-ufe
 - ../../../apps/sukus-ambulance-webapi
 - ../../../apps/mongo-express
+- ../../../apps/sukus-patient-visit-fe
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
