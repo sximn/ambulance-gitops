@@ -21,7 +21,7 @@
             name: opa-config
         containers:
         - name: *PODNAME
-          image: openpolicyagent/opa:0.45.0 #latest-envoy
+          image: openpolicyagent/opa:0.45.0-envoy #latest-envoy
           securityContext:
             runAsUser: 1111
           volumeMounts:
