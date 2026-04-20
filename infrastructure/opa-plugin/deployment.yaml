@@ -22,6 +22,9 @@
         containers:
         - name: *PODNAME
           image: openpolicyagent/opa:latest-envoy
+          env:
+          - name: DOCKER_DEFAULT_PLATFORM
+            value: linux/amd64
           securityContext:
             runAsUser: 1111
           volumeMounts:
