@@ -9,4 +9,4 @@ images:
   newTag: main.20260323.1009 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
 - name: xukus/patient-visit-fe
   newName: xukus/patient-visit-fe # {"$imagepolicy":  "wac-hospital:patient-visit-fe:name"}
-  newTag: main.20260508.1327 # {"$imagepolicy": "wac-hospital:patient-visit-fe:tag"}
+  newTag: main.20260508.1406 # {"$imagepolicy": "wac-hospital:patient-visit-fe:tag"}
